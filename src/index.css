@@ -1,0 +1,24 @@
+* {
+  @apply m-0 p-0 list-none no-underline box-border;
+}
+
+img {
+  @apply w-full h-auto object-cover;
+}
+
+button,
+a {
+  @apply cursor-pointer;
+}
+
+::-webkit-scrollbar {
+  @apply w-[11px]
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-[10px] bg-[linear-gradient(blue,_crimson)]
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900
+}
