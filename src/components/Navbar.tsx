@@ -1,11 +1,14 @@
 import { useEffect, useState } from "react";
 
+interface GeoInfo {
+    city: string;   
+}
+
 export default function Navbar() {
-    const [ipAdd, setIpAdd] = useState('');
-    const [geoInfo, setGeoInfo] = useState(null); // Initialize as null to check for loading state
+    const [geoInfo, setGeoInfo] = useState<GeoInfo | null>(null); // Define the type of geoInfo
 
     useEffect(() => {
-        const fetchGeoInfo = async (ip) => {
+        const fetchGeoInfo = async (ip: string) => {
             try {
                 const response = await fetch(`http://ip-api.com/json/${ip}`); // Switch to http
                 const data = await response.json(); // Parse the response as JSON
@@ -19,8 +22,7 @@ export default function Navbar() {
             try {
                 const response = await fetch(`https://api.ipify.org`);
                 const data = await response.text();
-                setIpAdd(data);
-                fetchGeoInfo(data); // Fetch geolocation info after getting the IP
+                fetchGeoInfo(data);
             } catch (error) {
                 console.error("IP Error:", error);
             }
@@ -31,12 +33,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <p>{geoInfo ? JSON.stringify(geoInfo, null, 2) : "Loading..."}</p>
-            {geoInfo && geoInfo.region && (
-                <div>
-                    {geoInfo.region}
-                </div>
-            )}
+            <p>{geoInfo ? geoInfo.city : "Loading..."}</p>
         </div>
     );
 }
