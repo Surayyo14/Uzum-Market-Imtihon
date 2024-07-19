@@ -1,0 +1,18 @@
+{
+    "overview": {
+        "city": "Shahar: ",
+        "region": "Toshkent",
+        "location": "Topshirish punktlari",
+        "message": "Buyurtmangizni 1 kunda bepul yetkazib beramiz!",
+        "faq": "Savol-javoblar",
+        "order": "Buyurtmalarim"
+    },
+
+    "navbar": {
+        "modal": "Katalog",
+        "input": "Mahsulotlar va turkumlar izlash",
+        "enter": "Kirish",
+        "liked": "Saralangan",
+        "savat": "Savat"
+    }
+}
