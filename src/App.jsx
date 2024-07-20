@@ -14,10 +14,11 @@ import ProductInfo from "./pages/ProductInfo";
 export default function App() {
   const [card, setCard] = useState(true);
   const [state, dispatch] = useReducer(reducer, INITIAL_STATE)
+  const [likedProducts, setLikedProducts] = useState({});
 
   return (
     <div className="font-inter">
-      <Contexts.Provider value={{ card, setCard, state, dispatch }}>
+      <Contexts.Provider value={{ card, setCard, state, dispatch, likedProducts, setLikedProducts }}>
         <Overview />
         <Navbar />
         <Main/>

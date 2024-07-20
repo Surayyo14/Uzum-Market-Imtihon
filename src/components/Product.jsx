@@ -1,41 +1,39 @@
-import reducer, { INITIAL_STATE } from "@/reducer/Reducer";
+import React, { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { Contexts } from "@/util/Context";
 import { product } from "@/util/db";
 import { icons } from "@/util/icon";
-import React, { useContext, useReducer, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 export default function Product() {
-  const { dispatch } = useContext(Contexts);
-  const [likedProducts, setLikedProducts] = useState(
-    product.reduce((acc, item) => {
-      acc[item.id] = false;
-      return acc;
-    }, {})
-  );
+  const { state, dispatch, likedProducts, setLikedProducts } = useContext(Contexts);
+  const navigate = useNavigate();
 
   const handleLikeToggle = (id) => {
-    setLikedProducts((prevLikedProducts) => ({
-      ...prevLikedProducts,
-      [id]: !prevLikedProducts[id],
-    }));
+    setLikedProducts((prevLikedProducts) => {
+      const updatedLikes = { ...prevLikedProducts, [id]: !prevLikedProducts[id] };
+      console.log("Updated Liked Products: ", updatedLikes); // Debug log
+      return updatedLikes;
+    });
   };
 
   const addToBasket = (item) => {
-    dispatch({ type: "ADD_BASKET", payload: item });
+    const ress = state.basket.some(child => child.id == item.id);
+    if (!ress) {
+      dispatch({ type: "ADD_BASKET", payload: item });
+    }
   };
-
-  const navigate = useNavigate();
 
   return (
     <div className="bg-white mt-[30px]">
       <div className="w-[90%] m-auto grid grid-cols-5 gap-5">
         {product.map((item) => (
-          <div className="min-w-[150px] max-w-full border border-gray-300 p-3 rounded-lg relative cursor-pointer hover:border-gray-700 delay-75 duration-150"
+          <div
+            className="min-w-[150px] max-w-full border border-gray-300 p-3 rounded-lg relative cursor-pointer hover:border-gray-700 delay-75 duration-150"
             key={item.id}
           >
             <div>
-              <img onClick={() => navigate(`/productInfo/${item.id}`)}
+              <img
+                onClick={() => navigate(`/productInfo/${item.id}`)}
                 className="max-w-full h-[200px] scale-75 hover:scale-90 object-contain delay-75 duration-150"
                 src={item.image}
                 alt={item.category}
