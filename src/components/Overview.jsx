@@ -8,7 +8,7 @@ export default function Overview() {
 
   return (
     <div className='bg-[#F2F4F7]'>
-      <div className='w-[1350px] m-auto flex items-center justify-between py-2 px-[15px]'>
+      <div className='w-[90%] m-auto flex items-center justify-between py-2'>
         <div className='flex items-center gap-[23px]'>
           <div className='flex items-center gap-[6px]'>
             <span>{icons.location}</span>

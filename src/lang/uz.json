@@ -14,5 +14,34 @@
         "enter": "Kirish",
         "liked": "Saralangan",
         "savat": "Savat"
+    },
+
+    "main": {
+        "all": "Hammasi",
+        "electronic": "Elektronika",
+        "technic": "Mayishiy texnika",
+        "clothes": "Kiyim",
+        "shoes": "Poyabzallar",
+        "item": "Aksessuarlar",
+        "beuty": "Go'zallik va parvarish",
+        "healthy": "Salomatlik",
+        "homeitem": "Uy ro'zg'or buyumlari"
+    },
+
+    "footer": {
+        "about": "Biz haqimizda",
+        "vacancy": "Vakansiyalar",
+        "user": "Foydalanuvchilarga",
+        "contact": "Biz bilan bogʻlanish",
+        "business": "Tadbirkorlarga",
+        "buyin": "Uzumda soting",
+        "cabinet": "Sotuvchi kabinetiga kirish",
+        "download": "Ilovani yuklab olish",
+        "media": "Uzum ijtimoiy tarmoqlarda"
+    },
+
+    "basket": {
+        "yours": "Savatingiz",
+        "product": "mahsulot"
     }
 }
