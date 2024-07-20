@@ -108,7 +108,7 @@ export default function Choosen() {
                           {icons.delete}
                         </span>
 
-                        <div className="w-[100px]">
+                        <div className="w-[150px]">
                           <p className="text-xl text-end font-semibold text-[#1F2026]">
                             {`${item.price} $`}
                           </p>
