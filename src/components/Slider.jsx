@@ -1,5 +1,5 @@
 import React from 'react';
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+// import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { Link } from 'react-router-dom';
 import '@splidejs/react-splide/css';
 import '@splidejs/react-splide/css/core';

@@ -8,11 +8,12 @@ import { Contexts } from "./util/Context";
 import Main from "./components/Main";
 import Liked from "./pages/Liked";
 import Choose from "./pages/Choose";
-import reducer, { INTIAL_STATE } from "./reducer/Reducer";
+import reducer, { INITIAL_STATE } from "./reducer/Reducer";
+import ProductInfo from "./pages/ProductInfo";
 
 export default function App() {
   const [card, setCard] = useState(true);
-  const [state, dispatch] = useReducer(reducer, INTIAL_STATE)
+  const [state, dispatch] = useReducer(reducer, INITIAL_STATE)
 
   return (
     <div className="font-inter">
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/liked" element={<Liked />}/>
           <Route path="/saved" element={<Choose />}/>
+          <Route path="/productInfo/:id" element={<ProductInfo />}/>
         </Routes>
 
         <Footer />
