@@ -5,7 +5,7 @@ import Overview from "./components/Overview";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { Contexts } from "./util/Context";
-// import Main from "./components/Main";
+import Main from "./components/Main";
 import Liked from "./pages/Liked";
 import Choose from "./pages/Choose";
 import reducer, { INITIAL_STATE } from "./reducer/Reducer";
@@ -28,7 +28,7 @@ export default function App() {
       <Contexts.Provider value={{ card, setCard, state, dispatch, likedProducts, setLikedProducts }}>
         <Overview />
         <Navbar />
-        {/* <Main/> */}
+        <Main/>
 
         <Routes>
           <Route path="/" element={<Home />}/>

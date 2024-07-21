@@ -7,8 +7,8 @@ export default function Footer() {
 
   return (
     <div>
-      <div className="header_top_links mt-10 grid grid-cols-4 pb-[73px] w-[90%] m-auto border-b border-[#36364033]">
-        <div>
+      <div className="header_top_links grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-10 pb-[73px] w-[90%] m-auto border-b border-[#36364033]">
+        <div className="sm:mb-[30px]">
           <h3 className="mb-5 font-bold text-[16px]">{t("footer.about")}</h3>
           <a href="https://uzum.uz/uz/about/delivery-points" className="text-[#8B8E99]">
           {t("overview.location")}
@@ -17,7 +17,7 @@ export default function Footer() {
             {t("footer.vacancy")}
           </a>
         </div>
-        <div>
+        <div className="sm:mb-[30px]">
           <h3 className="mb-5 font-bold text-[16px]">{t("footer.user")}</h3>
           <a href="tel:+998781501115" className="text-[#8B8E99]">
           {t("footer.contact")}
@@ -26,7 +26,7 @@ export default function Footer() {
           {t("overview.faq")}
           </a>
         </div>
-        <div>
+        <div className="sm:mb-[30px]">
           <h3 className="mb-5 font-bold text-[16px]">{t("footer.business")}</h3>
           <a href="https://seller.uzum.uz/" className="text-[#8B8E99]">
           {t("footer.buyin")}
@@ -35,7 +35,7 @@ export default function Footer() {
           {t("footer.cabinet")}
           </a>
         </div>
-        <div>
+        <div className="sm:mb-[30px]">
           <h3 className="mb-5 font-bold text-[16px]">{t("footer.download")}</h3>
           <div className="flex items-center gap-3">
             <button>
@@ -70,14 +70,39 @@ export default function Footer() {
               </svg>
             </a>
             <a href="https://t.me/uzum_market">
-              <svg data-v-438291e5="" width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="ui-icon">
-                <path d="M24 0C37.255 0 48 10.745 48 24c0 13.256-10.745 24-24 24C10.744 48 0 37.256 0 24 0 10.745 10.744 0 24 0Z" fill="#37AEE2"></path>
-                <path d="M36.453 12.87c.331-.138.68-.228 1.027-.265a1.804 1.804 0 0 1 1.027.169c.285.153.523.379.692.657.168.278.26.598.268.926a2.036 2.036 0 0 1-.078.56c-.053.216-.113.429-.183.64-.416 1.325-1.76 8.276-2.487 11.668-.31 1.474-.918 2.055-1.507 2.107-1.278.118-2.244-.852-3.48-1.666-1.933-1.249-3.025-2.04-4.906-3.249-2.177-1.332-.764-2.064.473-3.272.324-.312 5.94-5.444 6.042-5.887.013-.056.026-.263-.098-.37-.123-.106-.31-.07-.446-.042-.19.04-3.21 2.047-9.058 6.019-.857.573-1.623.841-2.297.805-.754-.04-2.21-.43-3.289-.785-1.32-.42-2.374-.64-2.282-1.355.046-.368.548-.746 1.51-1.135 5.993-2.461 10.065-4.126 12.215-4.993" fill="#fff"></path>
-              </svg>
-            </a>
+            <svg data-v-438291e5="" width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon "><g clip-path="url(#clip0_883_569)"><path d="M24 0c20 0 24 4 24 24s-4 24-24 24S0 44 0 24 4 0 24 0Z" fill="url(#paint0_linear_883_569)"></path><path d="M11.792 23.799c6.996-3.048 11.662-5.058 13.996-6.029 6.665-2.772 8.05-3.254 8.953-3.27.198-.003.642.046.93.28.242.196.31.463.341.65.032.186.072.612.04.944-.36 3.795-1.924 13.005-2.719 17.255-.336 1.798-.998 2.401-1.64 2.46-1.394.129-2.452-.92-3.802-1.806-2.112-1.384-3.305-2.246-5.356-3.597-2.37-1.562-.833-2.42.517-3.823.354-.367 6.494-5.952 6.613-6.459.015-.063.029-.3-.111-.424-.14-.125-.348-.082-.497-.048-.212.048-3.587 2.278-10.124 6.69-.958.659-1.825.979-2.602.962-.857-.018-2.506-.484-3.731-.883-1.503-.488-2.698-.747-2.594-1.576.054-.432.65-.874 1.786-1.326Z" fill="#fff"></path></g><defs><linearGradient id="paint0_linear_883_569" x1="24" y1="0" x2="24" y2="47.644" gradientUnits="userSpaceOnUse"><stop stop-color="#2AABEE"></stop><stop offset="1" stop-color="#229ED9"></stop></linearGradient><clipPath id="clip0_883_569"><path fill="#fff" d="M0 0h48v48H0z"></path></clipPath></defs></svg>
+
+          </a>
+          <a href="  https://www.youtube.com/channel/UCY3nNF2MUDKHrELA6LzbnHA">
+            <svg data-v-438291e5="" width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon "><g clip-path="url(#clip0_13094_71909)"><path d="M24 0c20 0 24 4 24 24s-4 24-24 24S0 44 0 24 4 0 24 0Z" fill="red"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M36.502 13.657a3.972 3.972 0 0 1 2.83 2.778C40 18.886 40 24 40 24s0 5.114-.669 7.565a3.972 3.972 0 0 1-2.829 2.778C34.006 35 24 35 24 35s-10.007 0-12.502-.657a3.973 3.973 0 0 1-2.83-2.778C8 29.114 8 24 8 24s0-5.114.669-7.565a3.973 3.973 0 0 1 2.829-2.778C13.992 13 24 13 24 13s10.006 0 12.502.657ZM29 24l-8 4.75v-9.5L29 24Z" fill="#fff"></path></g><defs><clipPath id="clip0_13094_71909"><path fill="#fff" d="M0 0h48v48H0z"></path></clipPath></defs></svg>
+
+          </a>
+          <a href="https://www.facebook.com/uzummarket">
+            <svg data-v-438291e5="" width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="ui-icon "><g clip-path="url(#clip0_1020_9699)"><path d="M24 0c20 0 24 4 24 24s-4 24-24 24S0 44 0 24 4 0 24 0Z" fill="#1877F2"></path><path d="M33.186 30.938 34.25 24h-6.656v-4.502c0-1.898.93-3.748 3.911-3.748h3.026V9.844s-2.746-.469-5.372-.469c-5.482 0-9.065 3.322-9.065 9.337V24H14v6.938h6.094v17.009C21.5 48 21.5 48 23.844 48c1.276 0 2.656 0 3.75-.053v-17.01h5.592Z" fill="#fff"></path></g><defs><clipPath id="clip0_1020_9699"><path fill="#fff" d="M0 0h48v48H0z"></path></clipPath></defs></svg>
+
+          </a>
           </div>
         </div>
       </div>
+    
+    <div className="mt-[30px] mb-5 w-[90%] m-auto flex flex-col sm:flex-row sm:items-center sm:justify-between">
+  <div className="flex items-center gap-[15px] mb-[20px] sm:mb-0">
+    <a target="_blank" className="text-[#1F2026] text-[14px] font-bold" href="https://legal.uzum.uz/privacy-policy-uz.html">
+      {t("footer.agreement")}
+    </a>
+    <a target="_blank" className="text-[#1F2026] text-[14px] font-bold" href="https://legal.uzum.uz/user-agreement-uz.html">
+      {t("footer.agreement2")}
+    </a>
+  </div>
+  <div>
+    <a target="_blank" className="text-[#8B8E99] text-[11px]" href="">
+      {t("footer.protection")}
+    </a>
+  </div>
+</div>
+
     </div>
   );
 }
+
+

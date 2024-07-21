@@ -1,3 +1,4 @@
+
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { Contexts } from "@/util/Context";
@@ -11,7 +12,7 @@ export default function Product() {
   const handleLikeToggle = (id) => {
     setLikedProducts((prevLikedProducts) => {
       const updatedLikes = { ...prevLikedProducts, [id]: !prevLikedProducts[id] };
-      console.log("Updated Liked Products: ", updatedLikes); // Debug log
+      console.log("Updated Liked Products: ", updatedLikes); 
       return updatedLikes;
     });
   };
@@ -25,10 +26,10 @@ export default function Product() {
 
   return (
     <div className="bg-white mt-[30px]">
-      <div className="w-[90%] m-auto grid grid-cols-5 gap-5">
+      <div className="w-[90%] m-auto grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         {product.map((item) => (
           <div
-            className="min-w-[150px] max-w-full border border-gray-300 p-3 rounded-lg relative cursor-pointer hover:border-gray-700 delay-75 duration-150"
+            className="min-w-[150px] max-w-full border border-gray-300 p-3 rounded-lg relative cursor-pointer shadow-custom"
             key={item.id}
           >
             <div>
@@ -50,7 +51,7 @@ export default function Product() {
                   {`(${item.ratingVoice} sharh)`}
                 </span>
               </div>
-              <div className="py-1 px-2 bg-[#FFFF00] text-[14px] leading-[17px] font-medium inline-block rounded-md mb-4">
+              <div className="py-1 px-2 bg-[#FFFF00] text-[14px] leading-[17px] font-medium inline-block rounded-md mb-[33px]">
                 {`${(item.price / 12).toFixed(2)} usd/month`}
               </div>
               <div className="flex items-center justify-between">
@@ -100,7 +101,7 @@ export default function Product() {
                 </svg>
               )}
             </div>
-            <button className="text-[12px] leading-[14px] font-medium py-1 px-2 text-white bg-blue-700 rounded-md absolute top-3 left-3">
+            <button className="text-[12px] leading-[14px] font-medium py-1 px-2 text-white bg-[#3B007D] rounded-md absolute top-3 left-3">
               {item.imgSubtitle}
             </button>
           </div>

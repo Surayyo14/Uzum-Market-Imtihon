@@ -10,7 +10,7 @@ export const product = [
       "rate": 3.9,
       "count": 120
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 120,
     "monthlyPayment": 3000,
     "oldPrice": 129.95
@@ -26,7 +26,7 @@ export const product = [
       "rate": 4.1,
       "count": 259
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 259,
     "monthlyPayment": 800,
     "oldPrice": 29.99
@@ -42,7 +42,7 @@ export const product = [
       "rate": 4.7,
       "count": 500
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 500,
     "monthlyPayment": 2500,
     "oldPrice": 65.99
@@ -58,7 +58,7 @@ export const product = [
       "rate": 2.1,
       "count": 430
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 430,
     "monthlyPayment": 300,
     "oldPrice": 19.99
@@ -74,7 +74,7 @@ export const product = [
       "rate": 4.6,
       "count": 400
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 400,
     "monthlyPayment": 9000,
     "oldPrice": 749
@@ -90,7 +90,7 @@ export const product = [
       "rate": 3.9,
       "count": 70
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 70,
     "monthlyPayment": 3000,
     "oldPrice": 199
@@ -106,7 +106,7 @@ export const product = [
       "rate": 3,
       "count": 400
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 400,
     "monthlyPayment": 150,
     "oldPrice": 14.99
@@ -122,7 +122,7 @@ export const product = [
       "rate": 1.9,
       "count": 100
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 100,
     "monthlyPayment": 80,
     "oldPrice": 12.99
@@ -138,7 +138,7 @@ export const product = [
       "rate": 3.3,
       "count": 203
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 203,
     "monthlyPayment": 1200,
     "oldPrice": 74.99
@@ -154,7 +154,7 @@ export const product = [
       "rate": 2.9,
       "count": 470
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 470,
     "monthlyPayment": 3500,
     "oldPrice": 139.99
@@ -170,7 +170,7 @@ export const product = [
       "rate": 4.8,
       "count": 319
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 319,
     "monthlyPayment": 3500,
     "oldPrice": 139.99
@@ -186,7 +186,7 @@ export const product = [
       "rate": 4.8,
       "count": 400
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 400,
     "monthlyPayment": 4500,
     "oldPrice": 159.99
@@ -202,7 +202,7 @@ export const product = [
       "rate": 2.9,
       "count": 250
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 250,
     "monthlyPayment": 5500,
     "oldPrice": 699.99
@@ -218,7 +218,7 @@ export const product = [
       "rate": 2.2,
       "count": 140
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 140,
     "monthlyPayment": 9000,
     "oldPrice": 1199.99
@@ -234,7 +234,7 @@ export const product = [
       "rate": 2.6,
       "count": 235
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 235,
     "monthlyPayment": 2300,
     "oldPrice": 69.99
@@ -250,7 +250,7 @@ export const product = [
       "rate": 2.9,
       "count": 340
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 340,
     "monthlyPayment": 1100,
     "oldPrice": 39.99
@@ -266,7 +266,7 @@ export const product = [
       "rate": 3.8,
       "count": 679
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 679,
     "monthlyPayment": 2100,
     "oldPrice": 49.99
@@ -282,7 +282,7 @@ export const product = [
       "rate": 4.7,
       "count": 130
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 130,
     "monthlyPayment": 400,
     "oldPrice": 19.99
@@ -298,7 +298,7 @@ export const product = [
       "rate": 4.5,
       "count": 146
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 146,
     "monthlyPayment": 350,
     "oldPrice": 9.99
@@ -314,7 +314,7 @@ export const product = [
       "rate": 3.6,
       "count": 145
     },
-    "imgSubtitle": "Original",
+    "imgSubtitle": "Aksiya",
     "ratingVoice": 145,
     "monthlyPayment": 500,
     "oldPrice": 14.99

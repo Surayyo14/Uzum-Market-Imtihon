@@ -12,7 +12,7 @@
         "modal": "Katalog",
         "input": "Mahsulotlar va turkumlar izlash",
         "enter": "Kirish",
-        "liked": "Saralangan",
+        "liked": "Saralanganlar",
         "savat": "Savat"
     },
 
@@ -23,7 +23,7 @@
         "clothes": "Kiyim",
         "shoes": "Poyabzallar",
         "item": "Aksessuarlar",
-        "beuty": "Go'zallik va parvarish",
+        "beauty": "Go'zallik va parvarish",
         "healthy": "Salomatlik",
         "homeitem": "Uy ro'zg'or buyumlari"
     },
@@ -37,7 +37,10 @@
         "buyin": "Uzumda soting",
         "cabinet": "Sotuvchi kabinetiga kirish",
         "download": "Ilovani yuklab olish",
-        "media": "Uzum ijtimoiy tarmoqlarda"
+        "media": "Uzum ijtimoiy tarmoqlarda",
+        "agreement":"Maxfiylik kelishuvi",
+        "agreement2":"Foydalanuvchi kelishuvi",
+        "protection":"«2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»"
     },
 
     "basket": {
