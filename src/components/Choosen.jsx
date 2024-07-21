@@ -40,7 +40,6 @@ export default function Choosen() {
   };
 
   useEffect(() => {
-    // Initialize quantities if not already set
     state.basket.forEach((item) => {
       if (!item.qty) {
         dispatch({

@@ -1,27 +1,4 @@
 
-// import React from 'react'
-// import { useTranslation } from 'react-i18next'
-
-// export default function Main() {
-//   const itemList = ['all', 'electronic', 'technic', 'clothes', 'shoes', 'item', 'beauty', 'healthy', 'homeitem']
-//   const { t } = useTranslation('global')
-
-//   return (
-//     <div className='bg-white pb-[30px]'>
-//       <div className='w-[90%] m-auto flex items-center justify-between px-5'>
-//         {
-//           itemList.map((item, index) => {
-//             return (
-//               <p key={index} className='text-[15px]'>{t(`main.${item}`)}</p>
-//             )
-//           })
-//         }
-//       </div>
-//     </div>
-//   )
-// }
-
-
 
 import React from 'react';
 import { useTranslation } from 'react-i18next';

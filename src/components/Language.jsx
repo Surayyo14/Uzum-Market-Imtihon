@@ -1,4 +1,4 @@
-// Language.jsx
+
 import React, { useState } from 'react';
 import Uzflag from '../assets/helper/uz.svg';
 import Ruflag from '../assets/helper/ru.svg';
